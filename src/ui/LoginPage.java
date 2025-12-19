@@ -165,7 +165,7 @@ public class LoginPage extends javax.swing.JFrame {
       String user = tempatuser.getText();
         String pass = new String(tempatsandi.getPassword());
 
-    if (user.equals("nabilakortisejati") && pass.equals("asu")) {
+    if (user.equals("nabilakortisejati") && pass.equals("cantik")) {
         javax.swing.JOptionPane.showMessageDialog(this, "Login Berhasil!");
 
         // BUKA MAIN MENU
