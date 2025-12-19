@@ -71,6 +71,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         lcibutton.setBackground(new java.awt.Color(255, 255, 255));
+        lcibutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         lcibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 lcibuttonActionPerformed(evt);
@@ -78,6 +79,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         siilkombutton.setBackground(new java.awt.Color(255, 255, 255));
+        siilkombutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         siilkombutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 siilkombuttonActionPerformed(evt);
@@ -85,6 +87,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         mibutton.setBackground(new java.awt.Color(255, 255, 255));
+        mibutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         mibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mibuttonActionPerformed(evt);
@@ -92,6 +95,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         ptibutton.setBackground(new java.awt.Color(255, 255, 255));
+        ptibutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         ptibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ptibuttonActionPerformed(evt);
@@ -99,6 +103,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         sihybridbutton.setBackground(new java.awt.Color(255, 255, 255));
+        sihybridbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         sihybridbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sihybridbuttonActionPerformed(evt);
@@ -106,6 +111,7 @@ public class Ruangan extends javax.swing.JFrame {
         });
 
         jButton8.setBackground(new java.awt.Color(255, 255, 255));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-12-19 at 4.34.14 PM_1.jpeg"))); // NOI18N
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
