@@ -29,12 +29,12 @@ public class Ruangan extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        kembalibutton = new javax.swing.JButton();
+        lcibutton = new javax.swing.JButton();
+        siilkombutton = new javax.swing.JButton();
+        mibutton = new javax.swing.JButton();
+        ptibutton = new javax.swing.JButton();
+        sihybridbutton = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -60,48 +60,48 @@ public class Ruangan extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 51, 102));
         jLabel2.setText("RUANGAN");
 
-        jButton1.setBackground(new java.awt.Color(40, 41, 114));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Kembali");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        kembalibutton.setBackground(new java.awt.Color(40, 41, 114));
+        kembalibutton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        kembalibutton.setForeground(new java.awt.Color(255, 255, 255));
+        kembalibutton.setText("Kembali");
+        kembalibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                kembalibuttonActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        lcibutton.setBackground(new java.awt.Color(255, 255, 255));
+        lcibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                lcibuttonActionPerformed(evt);
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(255, 255, 255));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        siilkombutton.setBackground(new java.awt.Color(255, 255, 255));
+        siilkombutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                siilkombuttonActionPerformed(evt);
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(255, 255, 255));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        mibutton.setBackground(new java.awt.Color(255, 255, 255));
+        mibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                mibuttonActionPerformed(evt);
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(255, 255, 255));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        ptibutton.setBackground(new java.awt.Color(255, 255, 255));
+        ptibutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                ptibuttonActionPerformed(evt);
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(255, 255, 255));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        sihybridbutton.setBackground(new java.awt.Color(255, 255, 255));
+        sihybridbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                sihybridbuttonActionPerformed(evt);
             }
         });
 
@@ -171,11 +171,11 @@ public class Ruangan extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lcibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGap(51, 51, 51)
-                                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(mibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGap(57, 57, 57)
-                                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(siilkombutton, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(155, 155, 155)
@@ -230,16 +230,16 @@ public class Ruangan extends javax.swing.JFrame {
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel9)
-                                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(ptibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(48, 48, 48)
-                                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(sihybridbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(152, 152, 152)))))
                         .addGap(75, 75, 75)
                         .addComponent(jLabel1)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(kembalibutton)
                 .addGap(47, 47, 47))
         );
         jPanel1Layout.setVerticalGroup(
@@ -251,9 +251,9 @@ public class Ruangan extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lcibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(siilkombutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(mibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
@@ -278,8 +278,8 @@ public class Ruangan extends javax.swing.JFrame {
                         .addComponent(jLabel9)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ptibutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(sihybridbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -292,7 +292,7 @@ public class Ruangan extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel16)
                         .addGap(58, 58, 58)
-                        .addComponent(jButton1)
+                        .addComponent(kembalibutton)
                         .addGap(162, 162, 162))))
         );
 
@@ -310,29 +310,59 @@ public class Ruangan extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void kembalibuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kembalibuttonActionPerformed
+       // Kembali
+        MainMenu menu = new  MainMenu();
+        menu.setVisible(true);
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_kembalibuttonActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    private void lcibuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lcibuttonActionPerformed
+        // BUKA LCI
+        detail_ruangan_LCI lci = new  detail_ruangan_LCI();
+        lci.setVisible(true);
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_lcibuttonActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    private void siilkombuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_siilkombuttonActionPerformed
+       // BUKA SI/Ilkom
+        detail_ruangan_SI_Ilkom siilkom = new  detail_ruangan_SI_Ilkom();
+        siilkom.setVisible(true);
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_siilkombuttonActionPerformed
+
+    private void mibuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mibuttonActionPerformed
+        // BUKA MI
+        detail_ruangan_informatika1 mi = new  detail_ruangan_informatika1();
+        mi.setVisible(true);
+
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_mibuttonActionPerformed
+
+    private void ptibuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ptibuttonActionPerformed
+       // BUKA PTI
+        detail_ruangan__dasar_PTI pti = new  detail_ruangan__dasar_PTI();
+        pti.setVisible(true);
+
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_ptibuttonActionPerformed
+
+    private void sihybridbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sihybridbuttonActionPerformed
+       // BUKA SI Hybrid
+        detail_ruangan_SI_Hybrid hybrid = new  detail_ruangan_SI_Hybrid();
+        hybrid.setVisible(true);
+
+        // TUTUP menu
+        this.dispose();
+    }//GEN-LAST:event_sihybridbuttonActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
@@ -374,12 +404,6 @@ public class Ruangan extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -399,5 +423,11 @@ public class Ruangan extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton kembalibutton;
+    private javax.swing.JButton lcibutton;
+    private javax.swing.JButton mibutton;
+    private javax.swing.JButton ptibutton;
+    private javax.swing.JButton sihybridbutton;
+    private javax.swing.JButton siilkombutton;
     // End of variables declaration//GEN-END:variables
 }

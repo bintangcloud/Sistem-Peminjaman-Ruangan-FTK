@@ -66,6 +66,11 @@ public class MainMenu extends javax.swing.JFrame {
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/classroom_15735460.png"))); // NOI18N
         jButton4.setText("Daftar Ruangan");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton3.setBackground(new java.awt.Color(214, 164, 0));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -144,6 +149,15 @@ public class MainMenu extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+       // BUKA RUANGAN
+        Ruangan rgn = new Ruangan();
+        rgn.setVisible(true);
+
+        // TUTUP Menu
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
